@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,8 +22,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private TextView mTvIp;
     private TextView mTvId;
     private AppUtil appUtil;
-    private Button mBtVideo;
-    private Button mBtPicture, mBtFolder, mBtSet, mBtMore;
+    private ImageButton mBtVideo;
+    private ImageButton mBtPicture, mBtFolder, mBtSet, mBtMore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,11 +47,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         mTvIp = (TextView) findViewById(R.id.tv_ip);
         mTvId = (TextView) findViewById(R.id.tv_id);
 
-        mBtVideo = (Button) findViewById(R.id.bt_video);
-        mBtPicture = (Button) findViewById(R.id.bt_picture);
-        mBtFolder = (Button) findViewById(R.id.bt_folder);
-        mBtSet = (Button) findViewById(R.id.bt_set);
-        mBtMore = (Button) findViewById(R.id.bt_more);
+        mBtVideo = (ImageButton) findViewById(R.id.bt_video);
+        mBtPicture = (ImageButton) findViewById(R.id.bt_picture);
+        mBtFolder = (ImageButton) findViewById(R.id.bt_folder);
+        mBtSet = (ImageButton) findViewById(R.id.bt_set);
+        mBtMore = (ImageButton) findViewById(R.id.bt_more);
 
     }
 
